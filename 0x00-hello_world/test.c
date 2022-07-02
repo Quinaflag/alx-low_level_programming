@@ -1,7 +1,21 @@
-1 #!/bin/bash
-2
-3 int main (){
-4 printf("something");
-5 return 0;
-6 
-7 }
+#include <stdio.h>
+
+
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
+int main(void)
+
+{
+
+	    return (0);
+
+}

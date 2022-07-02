@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -c -o $(echo $CFILE | cut -d. -f 1) ".O" $CFILE
