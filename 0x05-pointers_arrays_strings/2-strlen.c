@@ -5,7 +5,7 @@
  *
  * @s: this is the input string
  *
- * Return: length of the string 
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	for (index = 0; s[index] != '\0' ; index++)
 
-	return (index);ii
+	return (index);
 }

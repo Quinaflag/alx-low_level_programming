@@ -5,7 +5,6 @@
  * @a: this is the first entry
  * @b: this is the secon entry
  *
- *
  */
 void swap_int(int *a, int *b)
 {
