@@ -1,25 +1,33 @@
 #include "main.h"
+
 /**
- * _strspn - prints the consecutive characters of s1 that are in s2.
+ * _strspn - search a string for a set of bytes
  * @s: source string
- * @accept: searching string
+ * @accept: accepted string
  *
- * Return: new string.
+ * Return: number of bytes in the init segment
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	unsigned int a = 0,  b, t = 0;
 
-	for (j = 0; *(s + j); j++)
+	while (accept[a])
 	{
-		for (i = 0; *(accept + i); i++)
+		b = 0;
+
+		while (s[b] != 32)
 		{
-			if (*(s + j) == *(accept + i))
-				break;
+			if (accept[a] == s[b])
+			{
+				t++;
+			}
+
+			b++;
 		}
-	if (*(accept + i) == '\0'
-		break;
+
+		a++;
 	}
-	return (j);
+
+	return (t);
 }
 
